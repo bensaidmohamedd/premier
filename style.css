@@ -1,0 +1,120 @@
+h1{
+    color:blue;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color:white;
+}
+body{
+    margin: 20px;
+    background-color: #90CAF9;
+}
+p,ul{
+    color: black;
+    font-size: 20px;
+}
+ .mymenu {
+    height: 90%; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #90CAF9;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; 
+    transition: 0.3s;
+  }
+  .mymenu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+  .mymenu a:hover {
+    color: #f1f1f1;
+  }
+  .mymenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:#2196F3;
+    color: white;
+    padding: 10px 15px;
+    border-radius:10px;
+    position: absolute;
+    top:0;
+    left: 0;
+    margin: 10px;
+  }
+  
+  .openbtn:hover {
+    background-color:#6d6d9c;
+  } 
+  section{
+    padding:40px;
+    margin: 5px;
+    border: 1px dotted;
+    background-color: rgb(13, 159, 243);
+    box-shadow: hsl(0, 94%, 45%);
+    transition: background-color 0.5s ease;
+  }
+  .commerce,.pro{
+    margin-bottom:20px;
+    background-color: #2196F3;
+    padding: 20px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+  }
+  .commerce:hover,.pro:hover{
+    transform: scale(1.05);
+  }
+footer {
+    margin: 0;
+    background-color: #2196F3; 
+    color: hsl(46, 93%, 45%);
+    text-align: center;
+    padding:0;
+    margin-bottom:20px;
+    border-radius: 10px;
+    font-size: small;
+}
+footer a{
+    color: #ff004c;
+}
+.wave{
+    text-align: center;
+    position:relative;
+    -webkit-box-direction: below
+    linear-gradienttransparent,black
+}
+.wave span{
+    position:relative;
+    display:inline-block;
+    font-size: 2em;
+    text-transform: uppercase;
+    animation: wave 1s infinite;
+    animation-delay: calc(.1s*var(--i))
+}
+@keyframes wave{
+    0%,
+    40%,
+    100%{
+        transform:translateY(0)
+    }
+    20%{
+        transform:translateY(-20px)
+    }
+   
+}
+   

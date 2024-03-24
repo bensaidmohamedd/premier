@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="FR">
+   <head>
+    <title>WebCraft Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="javascript.js" type="javascript"></script>
+   </head> 
+   <body>
+        <div class="wave">
+            <span style="--i:1">W</span><span style="--i:2">e</span><span style="--i:3">l</span><span style="--i:4">c</span><span style="--i:5">o</span><span style="--i:6">m</span><span style="--i:7">e</span><span style="--i:8"> </span><br>
+            <span style="--i:9">T</span><span style="--i:10">o</span><br>
+            <span style="--i:11">W</span><span style="--i:12">e</span><span style="--i:13">b</span><span style="--i:14">c</span><span style="--i:15">r</span><span style="--i:16">a</span><span style="--i:17">f</span><span style="--i:18">t</span><span style="--i:19"></span>
+            <span style="--i:20">S</span><span style="--i:21">t</span><span style="--i:22">u</span><span style="--i:23">d</span><span style="--i:24">i</span><span style="--i:25">o</span>
+            </div>
+        <nav>
+            <div class="mymenu" id="menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html"><i class="fa fa-fw fa-home"></i> Accueil</a>
+                <a href="Service.html"><i class="fa fa-fw fa-cogs"></i>Services</a>
+                <a href="Projet.html"><i class="fa fa-fw fa-code"></i>Projet</a>
+                <a href="Contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+                <a href="Apropos.html"><i class="fa fa-fw fa-user"></i>à propos</a>
+            </div>
+        
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+        </nav>
+        <section class="pro">
+            <h2>Création de site profetionnel</h2>
+            <img src="pro.png" alt="icon d'ordi">
+            <p>
+                Augmentez votre notorité,attirez de nouveaux clients,presentez vous et diffusez vos valeurs avec un sites web profetionnel.
+            </p>
+        </section>
+        <section class="commerce">
+            <h2>Création de site e-commerce</h2>
+            <img src="proo.png" alt="icon d'ordi">
+            <p>
+                vendez vos produits en ligne avec une solution e-commerce 100% personnalisée:
+                <ul>
+                    <li>Solution de paiement</li>
+                    <li>Gestion de stock</li>
+                    <li>Fiches produit</li>
+                    <li>Tunnel de vente</li>
+                    <li>Etc...</li>
+                </ul>
+            </p>
+        </section>
+    <footer>
+        <p>Developped by <a href="moi.html">Mohamed Ben-Saïd</a><br>
+            &copy; 2023 WebCraft Studio.Tout droits réservés
+        </p>
+    </footer>
+    <script>
+        /* Set the width of the sidebar to 250px (show it) */
+function openNav() {
+    document.getElementById("menu").style.width = "200px";
+  }
+  
+  /* Set the width of the sidebar to 0 (hide it) */
+  function closeNav() {
+    document.getElementById("menu").style.width = "0";
+  } 
+    </script>
+   </body>
+</html>
